@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Security & Config
 app.secret_key = 'your_static_secret_key_here'
-AWS_REGION = os.environ.get('AWS_REGION', 'ap-south-1')
+AWS_REGION = os.environ.get('AWS_REGION', 'us-east-1')
 SNS_TOPIC_ARN = 'arn:aws:sns:ap-south-1:977099000730:MovieTicketNotifications'
 
 # AWS Services
